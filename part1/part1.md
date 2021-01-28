@@ -17,27 +17,43 @@ we return the correct values in the end.
 12. The function will not return anything because there are errors in the function such as we're trying to modify constant vairables, which is not allowed and will raise errors.
 13.
   A. student.name
+  
   B. student["Grad Year"]
+  
   C. student.greeting()
+  
   D. student["Favorite Teacher"].name
+  
   E. student.courseLoad[0]
   
  14.
   A. 32 because javascript treats the inputs as strings and put 3 and 2 together, so it's 32
+  
   B. 1 because javascript treated the inputs as integers and subtracted them
+  
   C. 3 because javascript converts null to 0 in this case
+  
   D. 3null because javascript treated null as a string in this case
+  
   E. 4 because javascript converts true to 1 in this case
+  
   F. 0 because javascript is treating null and false as 0
+  
   G. 3undefined becuase jevascript treats undefined as a string in this case
+  
   H. NaN because undefined became NaN in this case so we can't subtract it with 3
  
 15. 
   A. true because javascript treats 2 as an interger and 2 is greater than 1
+  
   B. false because javascript is doing string comparison and two is lexographically greater than twelve
+  
   C. true because the string "2" becomes integer 2
+  
   D. false because === does the comparison without type conversion, so the string "2" is not equal to the integer 2
+  
   E. false because true is equal to 1 not 2, so although == does not convert types, true is not equal to 1
+  
   F. 
   
  16. === compares without changing typed while ==, Javascipt may change the type and then do the comparison.
