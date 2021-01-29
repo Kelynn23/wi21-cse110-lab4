@@ -54,9 +54,21 @@ we return the correct values in the end.
   
   E. false because true is equal to 1 not 2, so although == does not convert types, true is not equal to 1
   
-  F. 
+  F. true because 2 is not null or undefined, so it evaluates as true.
   
  16. === compares without changing typed while ==, Javascipt may change the type and then do the comparison.
+ 
+ 17. "How are you" was printed because 2 got converted to true since it's not an intruitively "empty" value.
+ 
+ 19. [6,8, 10] is the result because the callback function, doSomething, was called and it will add 2 to all the numbers in the array then function x will multiply each number by 2.
+ 
+ 21. 
+ 1
+ 4
+ 3
+ 2
+ 
+ 
  
  
  
