@@ -1,8 +1,8 @@
 # Part 1
 
-1. Var i will be printed because variables declared with var are not block or loop-local, so it is still visible after the loop. 
-2. discountedPrice will be printed because vairables declared with var is not local to the loop, so it functions as a global variable.
-3. finalPrice will be printed because it is declared in the function (even if it's in the for loop it's okay because it's declared with var, so it will be global.)
+1. Var i will be printed (using the argument from #4, line 11 prints 3) because variables declared with var are not block or loop-local, so it is still visible after the loop. 
+2. discountedPrice will be printed (using the argument from #4, line 12 prints 150) because vairables declared with var is not local to the loop, so it functions as a global variable.
+3. finalPrice will be printed (using the argument from #4, line 13 prints 150) because it is declared in the function (even if it's in the for loop it's okay because it's declared with var, so it will be global.)
 4. The function will return the array discounted, which would be [ 50, 100, 150 ] because each price in the array prices will go through the for loop and gets reevaluated with the dicount amount and gets stored in the dicounted array. 
 Also, it does not matter that the variables are declared inside the for loop because variables declared with var is global.
 5. i will not print because declaring it with let means that it will be local to the for loop.
